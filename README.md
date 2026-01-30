@@ -1,2 +1,2 @@
-# HCC-net
-HCC: A Hierarchical and Complementary Cognitive Framework for Remote Sensing Change Captioning
+# HCFNet
+HCFNet: Hierarchical and Complementary Feature Embedding for Remote Sensing Change Captioning
