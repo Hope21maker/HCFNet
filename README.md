@@ -59,20 +59,7 @@ Traditional automatic metrics may assign similar scores to semantically differen
 
 This makes the evaluation more sensitive to semantic correctness in change description.
 
----
 
-## Framework
-
-The overall pipeline of HCFNet is illustrated below.
-
-<p align="center">
-  <img src="figs/F2.png" alt="HCFNet Framework" width="85%">
-</p>
-
-**Pipeline summary:**  
-Bi-temporal images are first processed by a visual encoder and a change encoder to produce a difference feature. The CCVP module then decomposes this feature into HCoV. HCMLoss is applied during training to regularize these vectors. Finally, CCLD progressively fuses HCoV during decoding to generate change captions. CSM is used as a change-aware evaluation metric.
-
----
 
 ## Experimental Results
 
