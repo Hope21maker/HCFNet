@@ -125,8 +125,8 @@ We evaluate HCFNet on two benchmark RS-CC datasets:
 - Total captions: 37,170
 
 The dataset used in this paper is shared via Baidu Netdisk.
-
-Link: https://pan.baidu.com/s/18hqUuWmUtuZ2kRb25rDFpw?pwd=xytc  
+```bibtex
+https://pan.baidu.com/s/18hqUuWmUtuZ2kRb25rDFpw?pwd=xytc  
 
 Please follow the official dataset terms and licenses when downloading and using these datasets.
 
