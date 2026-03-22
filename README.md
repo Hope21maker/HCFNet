@@ -2,15 +2,6 @@
 
 > Official repository of **HCFNet**, a hierarchical and complementary feature embedding framework for **Remote Sensing Change Captioning (RS-CC)**.
 
-## Introduction
-
-Remote Sensing Change Captioning (RS-CC) aims to generate natural language descriptions for scene changes in bi-temporal remote sensing images. Different from traditional change detection, RS-CC not only requires identifying changed regions, but also demands semantic interpretation of **what changed**, **where it changed**, and **how it changed**.
-
-Although existing RS-CC methods have achieved promising performance, most of them still rely on a one-shot paradigm that directly decodes captions from a fused difference feature. This often limits the model's ability to progressively refine change semantics. In addition, commonly used captioning metrics such as BLEU and METEOR mainly measure lexical overlap and cannot adequately capture the semantic correctness of change descriptions in remote sensing scenarios.
-
-To address these issues, we propose **HCFNet**, a **Hierarchical and Complementary Feature Embedding Network** for RS-CC. HCFNet introduces hierarchical visual parsing, complementary representation learning, progressive semantic fusion, and a novel change-aware evaluation metric.
-
----
 
 ## Main Contributions
 
@@ -54,9 +45,9 @@ Instead of decoding from a single collapsed change feature, CCLD progressively i
 
 Traditional automatic metrics may assign similar scores to semantically different captions if they share similar word patterns. To better evaluate RS-CC models, CSM introduces level-based semantic penalties according to:
 
-- **Spatial Scale**
-- **Change Extent**
-
+- [**Spatial Scale**](Spatial%20Scale.json)
+- [**Change Extent**](Change%20Extent.json)
+The values provided in this JSON file denote the specific change intensity, which correspond to the discrete levels defined in the formula $L_d(w) \in \{0, 1, 2, 3\}$.
 This makes the evaluation more sensitive to semantic correctness in change description.
 
 
