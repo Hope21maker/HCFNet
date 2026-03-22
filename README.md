@@ -47,6 +47,7 @@ Traditional automatic metrics may assign similar scores to semantically differen
 
 - [**Spatial Scale**](Spatial%20Scale.json)
 - [**Change Extent**](Change%20Extent.json)
+
 The values provided in this JSON file denote the specific change intensity, which correspond to the discrete levels defined in the formula $L_d(w) \in \{0, 1, 2, 3\}$.
 This makes the evaluation more sensitive to semantic correctness in change description.
 
