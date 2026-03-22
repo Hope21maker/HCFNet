@@ -106,33 +106,6 @@ This makes the evaluation more sensitive to semantic correctness in change descr
 
 ---
 
-## Qualitative Results
-
-### LEVIR-CC qualitative comparison
-
-<p align="center">
-  <img src="figs/F3.png" alt="LEVIR-CC qualitative results" width="85%">
-</p>
-
-### WHU-CDC qualitative comparison
-
-<p align="center">
-  <img src="figs/F4.png" alt="WHU-CDC qualitative results" width="85%">
-</p>
-
-### Feature heatmap visualization
-
-<p align="center">
-  <img src="figs/F5.png" alt="LEVIR-CC heatmap" width="85%">
-</p>
-
-<p align="center">
-  <img src="figs/F6.png" alt="WHU-CDC heatmap" width="85%">
-</p>
-
-These qualitative examples show that HCFNet can better focus on semantically meaningful changed regions and generate more accurate descriptions than previous RS-CC methods.
-
----
 
 ## Datasets
 
