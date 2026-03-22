@@ -161,36 +161,7 @@ We evaluate HCFNet on two benchmark RS-CC datasets:
 
 Please follow the official dataset terms and licenses when downloading and using these datasets.
 
----
 
-## Release Status
-
-This repository is being organized for public release.
-
-The current release focuses on:
-- the paper overview,
-- method description,
-- experimental results,
-- qualitative visualization,
-- and citation information.
-
-The training code, inference scripts, checkpoints, and detailed environment configuration will be released after final code cleanup.
-
----
-
-## Planned Open-Source Contents
-
-The following materials are planned for release in this repository:
-
-- [ ] Training code for HCFNet
-- [ ] Inference and evaluation code
-- [ ] CSM evaluation implementation
-- [ ] Pretrained checkpoints
-- [ ] Environment configuration
-- [ ] Data preparation instructions
-- [ ] Reproducibility notes
-
----
 
 ## Citation
 
