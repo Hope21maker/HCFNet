@@ -1,7 +1,4 @@
 # csm_batch.py
-# Batch CSM evaluation for multi-reference caption JSON files.
-# CSM uses two level dictionaries: Spatial Scale and Change Extent.
-# Token-level mismatch penalty: same level -1, level gap 1 -> -2, level gap >=2 -> -3.
 
 import json
 import math
@@ -12,7 +9,7 @@ from typing import Dict, List, Tuple
 DEFAULT_SPATIAL_SCALE = "Spatial Scale.json"
 DEFAULT_CHANGE_EXTENT = "Change Extent.json"
 DEFAULT_GT = "LevirCCcaptions.json"
-INPUT_JSON = "json/CARD_Levir_CC_gate.json"
+INPUT_JSON = "json/x'x'x_Levir_CC_gate.json"
 
 
 def tokenize(sentence: str) -> List[str]:
