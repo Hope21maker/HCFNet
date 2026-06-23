@@ -9,7 +9,7 @@ from typing import Dict, List, Tuple
 DEFAULT_SPATIAL_SCALE = "Spatial Scale.json"
 DEFAULT_CHANGE_EXTENT = "Change Extent.json"
 DEFAULT_GT = "LevirCCcaptions.json"
-INPUT_JSON = "json/x'x'x_Levir_CC_gate.json"
+INPUT_JSON = "json/xxxx_Levir_CC_gate.json"
 
 
 def tokenize(sentence: str) -> List[str]:
