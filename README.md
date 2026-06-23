@@ -69,9 +69,17 @@ We evaluate HCFNet on two benchmark RS-CC datasets:
 - Spatial resolution: `0.075 m/pixel`
 - Total captions: 37,170
 
+### SECOND-CC
+- 6,041 bi-temporal image pairs
+-  Image size: `256 × 256`
+- Spatial resolution: approximately `0.5–3 m/pixel`
+- 5 captions per image pair
+- Total captions: 30,205
+
+
 The dataset used in this paper is shared via Baidu Netdisk.
 
-### https://pan.baidu.com/s/18hqUuWmUtuZ2kRb25rDFpw?pwd=xytc  
+ https://pan.baidu.com/s/1UEmoXix5mRVO2tmfTnYTUQ?pwd=3ti4
 
 Please follow the official dataset terms and licenses when downloading and using these datasets.
 
