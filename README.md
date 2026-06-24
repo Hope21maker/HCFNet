@@ -1,8 +1,6 @@
-# HCFNet CSM Evaluation Code
+# HCFNet: Hierarchical and Complementary Feature Embedding for Remote Sensing Change Captioning
 
 This repository provides the Change-Sensitive Metric (CSM) evaluation code and word-level rule files used in the paper:
-
-> **HCFNet: Hierarchical and Complementary Feature Embedding for Remote Sensing Change Captioning**
 
 CSM is a reference-based evaluation metric designed for remote sensing change captioning. In addition to measuring the matching degree between predicted captions and ground-truth captions, CSM further penalizes inconsistencies in two semantic dimensions:
 
