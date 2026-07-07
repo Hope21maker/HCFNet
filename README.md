@@ -15,19 +15,7 @@ This code only depends on the Python standard library. Python 3.10 or later is r
 python csm_batch.py
 ```
 
-By default, this command evaluates the WHU-CDC example results provided in this repository. The expected output is as follows:
 
-```text
-Prediction items : 744
-Evaluated samples: 744
-Invalid items    : 0
-Missing refs     : 0
-
-CSM-1: 76.7174
-CSM-2: 74.8664
-CSM-3: 72.1313
-CSM-4: 70.3291
-```
 
 The files used in this example are:
 
